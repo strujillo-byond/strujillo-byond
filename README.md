@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @strujillo-byond
-- 👀 I’m interested in Java, JavaScript and more!
-- 🌱 I’m currently learning React!
-- 💞️ I’m looking to collaborate to Java Community!
+- 👀 I’m interested in Java, JavaScript, DevOps and more!
+- 🌱 I’m currently learning K8s!
+- 💞️ I’m looking to collaborate to Java, Javascript and DevOps Community!
 - 📫 How to reach me @SergioTLFSD
 
 <!---
