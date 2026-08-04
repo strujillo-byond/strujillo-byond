@@ -113,6 +113,7 @@
 ## ⚡ Recent Activity
 
 <!--START_SECTION:activity-->
+*Nothing public yet — my work lives in private repos for now.*
 <!--END_SECTION:activity-->
 
 ## 💭 Dev Quote of the Day
