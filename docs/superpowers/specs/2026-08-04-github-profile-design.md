@@ -43,6 +43,17 @@ Top-to-bottom structure of `README.md`:
 - Stats cards are third-party services; outages render as broken images temporarily and self-heal.
 - The snake image is broken until the first workflow run completes (the push-to-main trigger runs it immediately).
 
+## Addendum (2026-08-04): widget expansion
+
+Approved additions after Phase 1 shipped:
+
+- **3D contribution graph** (yoshi389111/github-profile-3d-contrib) added to the daily graphics workflow (`snake.yml`, renamed "Generate profile graphics"); publishes `profile-3d-contrib/*.svg` to `output`.
+- **lowlighter/metrics**: wired in the same workflow but gated on a `METRICS_TOKEN` secret (requires a classic PAT; the default GITHUB_TOKEN is not usable). README embed commented until enabled. The `mv` fallback path for the rendered file is unverified until the first real run.
+- **Recent activity** (jamesgeorge007/github-activity-readme) + **daily dev quote** (local `quotes/quotes.txt`, day-of-year index, awk marker replacement) in `update-readme.yml` (12h cron). Activity only tracks public issues/PRs/releases — placeholder text until those exist.
+- **Visitor counter** (komarev) under the typing header.
+- **Trophies**: github-profile-trophy.vercel.app is DEPLOYMENT_DISABLED (402) — embed left commented.
+- **WakaTime**: pending Sergio's account + editor plugin; commented note in README.
+
 ## Phase 2 — Portfolio (separate repo, own spec later)
 
 `strujillo-byond.github.io`: Vite + React + Tailwind + shadcn/ui + Magic UI (animated hero, tech marquee, bento grid for projects), deployed to GitHub Pages via Actions on each push. Sections: hero, about, stack, projects (placeholder), contact. Gets its own brainstorm/spec/plan cycle after Phase 1 ships.
