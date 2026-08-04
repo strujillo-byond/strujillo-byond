@@ -4,6 +4,8 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=480&lines=Java+%26+JavaScript+Developer;DevOps+%26+Cloud+enthusiast;Currently+learning+Kubernetes" alt="Typing animation">
 
+<img src="https://komarev.com/ghpvc/?username=strujillo-byond&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS" alt="Profile views">
+
 </div>
 
 ## 🛠️ Tech Stack
@@ -64,6 +66,14 @@
 <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=strujillo-byond&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats">
 <img height="170" src="https://streak-stats.demolab.com?user=strujillo-byond&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak">
 
+<!-- Trophies — the github-profile-trophy.vercel.app deployment is DISABLED
+     (402) as of 2026-08-04. Uncomment if the service comes back:
+<img src="https://github-profile-trophy.vercel.app/?username=strujillo-byond&theme=onedark&no-frame=true&no-bg=true&column=-1&margin-w=8" alt="Trophies">
+-->
+
+<!-- WakaTime — pending account setup (wakatime.com + editor plugin).
+     Once active, embed the public chart from the WakaTime profile here. -->
+
 </div>
 
 ## 🐍 Contribution Snake
@@ -77,10 +87,39 @@
 
 </div>
 
+## 🏔️ 3D Contributions
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/profile-3d-contrib/profile-night-green.svg">
+  <img src="https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph">
+</picture>
+
+<!-- Metrics (lowlighter) — pending METRICS_TOKEN secret. To enable:
+     1. Create a classic PAT (no scopes needed for public data): https://github.com/settings/tokens
+     2. gh secret set METRICS_TOKEN --repo strujillo-byond/strujillo-byond
+     3. Re-run the "Generate profile graphics" workflow and uncomment:
+<img src="https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/metrics.svg" alt="Metrics">
+-->
+
+</div>
+
 ## 🌱 Currently
 
 - ☸️ Learning **Kubernetes**
 - 🤝 Open to collaborating on **Java**, **JavaScript** and **DevOps** projects
+
+## ⚡ Recent Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+## 💭 Dev Quote of the Day
+
+<!--START_SECTION:quote-->
+> "Premature optimization is the root of all evil." — Donald Knuth
+<!--END_SECTION:quote-->
 
 ## 📫 Reach me
 

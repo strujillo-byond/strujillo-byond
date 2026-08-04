@@ -1,0 +1,50 @@
+name: Update README sections
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update recent activity
+        uses: jamesgeorge007/github-activity-readme@master
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "chore(profile): update recent activity"
+          MAX_LINES: 5
+
+      - name: Update daily dev quote
+        run: |
+          total=$(grep -c . quotes/quotes.txt)
+          day=$((10#$(date -u +%j)))
+          idx=$(( (day - 1) % total + 1 ))
+          quote=$(sed -n "${idx}p" quotes/quotes.txt)
+          awk -v q="> $quote" '
+            /<!--START_SECTION:quote-->/ { print; print q; skip=1; next }
+            /<!--END_SECTION:quote-->/   { skip=0 }
+            !skip
+          ' README.md > README.tmp && mv README.tmp README.md
+
+      - name: Commit quote if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore(profile): update daily quote"
+            git pull --rebase
+            git push
+          else
+            echo "Quote unchanged"
+          fi
