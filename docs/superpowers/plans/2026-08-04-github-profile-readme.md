@@ -27,7 +27,7 @@
 **Interfaces:**
 - Produces: `output` branch containing `github-snake.svg` and `github-snake-dark.svg`, referenced by Task 2's README at `https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/<name>.svg`.
 
-- [ ] **Step 1: Write the workflow file**
+- [x] **Step 1: Write the workflow file**
 
 ```yaml
 name: Generate contribution snake
@@ -65,12 +65,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-- [ ] **Step 2: Validate the YAML parses**
+- [x] **Step 2: Validate the YAML parses**
 
 Run: `python3 -c "import yaml,sys; yaml.safe_load(open('.github/workflows/snake.yml')); print('OK')"`
 Expected: `OK`
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add .github/workflows/snake.yml
@@ -85,7 +85,7 @@ git commit -m "feat(profile): add contribution snake workflow"
 **Interfaces:**
 - Consumes: raw snake SVG URLs from Task 1's `output` branch.
 
-- [ ] **Step 1: Pre-flight — verify every third-party asset URL returns HTTP 200**
+- [x] **Step 1: Pre-flight — verify every third-party asset URL returns HTTP 200**
 
 Run each (expect `200`; the two raw.githubusercontent URLs will 404 until Task 3 runs the workflow — that is expected here):
 
@@ -100,7 +100,7 @@ curl -s -o /dev/null -w "%{http_code} footer\n" "https://capsule-render.vercel.a
 
 If any non-snake URL is not 200, fix the URL before writing the README.
 
-- [ ] **Step 2: Write the new README.md (full content)**
+- [x] **Step 2: Write the new README.md (full content)**
 
 ````markdown
 <div align="center">
@@ -170,7 +170,7 @@ If any non-snake URL is not 200, fix the URL before writing the README.
 </div>
 ````
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add README.md
@@ -184,18 +184,18 @@ git commit -m "feat(profile): animated profile readme with stats and snake"
 **Interfaces:**
 - Consumes: Task 1's workflow (triggered automatically by the push to `main`).
 
-- [ ] **Step 1: Push to main**
+- [x] **Step 1: Push to main**
 
 ```bash
 git push origin main
 ```
 
-- [ ] **Step 2: Watch the workflow triggered by the push**
+- [x] **Step 2: Watch the workflow triggered by the push**
 
 Run: `gh run list --workflow=snake.yml --limit 1` then `gh run watch <run-id> --exit-status`
 Expected: run concludes `success`. If no run appears (push race), trigger manually: `gh workflow run snake.yml` and watch again.
 
-- [ ] **Step 3: Verify the output branch and SVGs**
+- [x] **Step 3: Verify the output branch and SVGs**
 
 ```bash
 curl -s -o /dev/null -w "%{http_code} snake-light\n" "https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/github-snake.svg"
