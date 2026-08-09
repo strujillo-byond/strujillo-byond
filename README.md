@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Deleted code is debugged code." — Jeff Sickel
+> "Programming isn't about what you know; it's about what you can figure out." — Chris Pine
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
