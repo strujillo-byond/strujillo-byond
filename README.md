@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Programming isn't about what you know; it's about what you can figure out." — Chris Pine
+> "The only way to learn a new programming language is by writing programs in it." — Dennis Ritchie
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
