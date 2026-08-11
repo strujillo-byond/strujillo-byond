@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "The only way to learn a new programming language is by writing programs in it." — Dennis Ritchie
+> "Software is a great combination between artistry and engineering." — Bill Gates
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
