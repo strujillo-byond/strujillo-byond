@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Weeks of coding can save you hours of planning." — Anonymous
+> "Experience is the name everyone gives to their mistakes." — Oscar Wilde
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
