@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "There are only two hard things in Computer Science: cache invalidation and naming things." — Phil Karlton
+> "A language that doesn't affect the way you think about programming is not worth knowing." — Alan Perlis
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
