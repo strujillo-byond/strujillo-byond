@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "A language that doesn't affect the way you think about programming is not worth knowing." — Alan Perlis
+> "Testing leads to failure, and failure leads to understanding." — Burt Rutan
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
