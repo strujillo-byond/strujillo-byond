@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Optimism is an occupational hazard of programming: feedback is the treatment." — Kent Beck
+> "If debugging is the process of removing bugs, then programming must be the process of putting them in." — Edsger W. Dijkstra
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
