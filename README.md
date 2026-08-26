@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "The computer was born to solve problems that did not exist before." — Bill Gates
+> "Don't comment bad code — rewrite it." — Brian Kernighan
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
