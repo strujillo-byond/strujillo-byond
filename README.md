@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Don't comment bad code — rewrite it." — Brian Kernighan
+> "Everything should be made as simple as possible, but not simpler." — Albert Einstein
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
