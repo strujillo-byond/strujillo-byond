@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Talk is cheap. Show me the code." — Linus Torvalds
+> "Programs must be written for people to read, and only incidentally for machines to execute." — Harold Abelson
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
