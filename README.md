@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "The best error message is the one that never shows up." — Thomas Fuchs
+> "Deleted code is debugged code." — Jeff Sickel
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
