@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Experience is the name everyone gives to their mistakes." — Oscar Wilde
+> "Java is to JavaScript what car is to carpet." — Chris Heilmann
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
