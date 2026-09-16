@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Measuring programming progress by lines of code is like measuring aircraft building progress by weight." — Bill Gates
+> "Simplicity is prerequisite for reliability." — Edsger W. Dijkstra
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
