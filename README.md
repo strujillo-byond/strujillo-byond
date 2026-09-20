@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Testing leads to failure, and failure leads to understanding." — Burt Rutan
+> "Good code is its own best documentation." — Steve McConnell
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
