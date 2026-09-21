@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Good code is its own best documentation." — Steve McConnell
+> "Optimism is an occupational hazard of programming: feedback is the treatment." — Kent Beck
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
