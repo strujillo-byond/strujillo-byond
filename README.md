@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Controlling complexity is the essence of computer programming." — Brian Kernighan
+> "The computer was born to solve problems that did not exist before." — Bill Gates
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
