@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Everything should be made as simple as possible, but not simpler." — Albert Einstein
+> "The most damaging phrase in the language is: 'We've always done it this way.'" — Grace Hopper
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
