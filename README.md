@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "The most damaging phrase in the language is: 'We've always done it this way.'" — Grace Hopper
+> "Talk is cheap. Show me the code." — Linus Torvalds
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
