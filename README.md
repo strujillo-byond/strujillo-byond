@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "First, solve the problem. Then, write the code." — John Johnson
+> "Simplicity is the soul of efficiency." — Austin Freeman
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
