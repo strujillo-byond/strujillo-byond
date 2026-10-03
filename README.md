@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Simplicity is the soul of efficiency." — Austin Freeman
+> "Premature optimization is the root of all evil." — Donald Knuth
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
