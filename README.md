@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Premature optimization is the root of all evil." — Donald Knuth
+> "Code is like humor. When you have to explain it, it's bad." — Cory House
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
