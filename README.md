@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Make it work, make it right, make it fast." — Kent Beck
+> "The best error message is the one that never shows up." — Thomas Fuchs
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
