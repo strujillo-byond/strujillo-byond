@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Software is a great combination between artistry and engineering." — Bill Gates
+> "Before software can be reusable it first has to be usable." — Ralph Johnson
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
