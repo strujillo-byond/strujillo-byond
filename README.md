@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Before software can be reusable it first has to be usable." — Ralph Johnson
+> "Weeks of coding can save you hours of planning." — Anonymous
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
