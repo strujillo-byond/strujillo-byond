@@ -119,7 +119,7 @@
 ## 💭 Dev Quote of the Day
 
 <!--START_SECTION:quote-->
-> "Simplicity is prerequisite for reliability." — Edsger W. Dijkstra
+> "There are only two hard things in Computer Science: cache invalidation and naming things." — Phil Karlton
 <!--END_SECTION:quote-->
 
 ## 📫 Reach me
