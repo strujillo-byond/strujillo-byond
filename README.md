@@ -57,13 +57,9 @@
 
 ## 📊 GitHub Stats
 
-<!-- Stats card served from a community mirror while the official instance
-     (github-readme-stats.vercel.app) is DEPLOYMENT_PAUSED — swap the host
-     back to the official one when it comes back up. -->
-
 <div align="center">
 
-<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=strujillo-byond&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=strujillo-byond&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats">
 <img height="170" src="https://streak-stats.demolab.com?user=strujillo-byond&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak">
 
 <!-- Trophies — the github-profile-trophy.vercel.app deployment is DISABLED
