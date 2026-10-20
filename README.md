@@ -85,17 +85,6 @@
   <img src="https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/github-snake.svg" alt="Contribution snake">
 </picture>
 
-</div>
-
-## 🏔️ 3D Contributions
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/profile-3d-contrib/profile-night-green.svg">
-  <img src="https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/profile-3d-contrib/profile-season-animate.svg" alt="3D contribution graph">
-</picture>
-
 <!-- Metrics (lowlighter) — pending METRICS_TOKEN secret. To enable:
      1. Create a classic PAT (no scopes needed for public data): https://github.com/settings/tokens
      2. gh secret set METRICS_TOKEN --repo strujillo-byond/strujillo-byond

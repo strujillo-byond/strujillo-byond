@@ -24,15 +24,6 @@ jobs:
             dist/github-snake.svg?palette=github
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Generate 3D contribution graphs
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-
-      - name: Move 3D graphs into dist
-        run: mv profile-3d-contrib dist/profile-3d-contrib
-
       - name: Check for metrics token
         id: metricstoken
         run: echo "has_token=${{ secrets.METRICS_TOKEN != '' }}" >> "$GITHUB_OUTPUT"

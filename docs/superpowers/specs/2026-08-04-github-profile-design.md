@@ -47,7 +47,7 @@ Top-to-bottom structure of `README.md`:
 
 Approved additions after Phase 1 shipped:
 
-- **3D contribution graph** (yoshi389111/github-profile-3d-contrib) added to the daily graphics workflow (`snake.yml`, renamed "Generate profile graphics"); publishes `profile-3d-contrib/*.svg` to `output`.
+- **3D contribution graph** (yoshi389111/github-profile-3d-contrib) added to the daily graphics workflow (`snake.yml`, renamed "Generate profile graphics"); publishes `profile-3d-contrib/*.svg` to `output`. **Removed 2026-10-20** (README section and workflow steps).
 - **lowlighter/metrics**: wired in the same workflow but gated on a `METRICS_TOKEN` secret (requires a classic PAT; the default GITHUB_TOKEN is not usable). README embed commented until enabled. The `mv` fallback path for the rendered file is unverified until the first real run.
 - **Recent activity** (jamesgeorge007/github-activity-readme) + **daily dev quote** (local `quotes/quotes.txt`, day-of-year index, awk marker replacement) in `update-readme.yml` (12h cron). Activity only tracks public issues/PRs/releases — placeholder text until those exist.
 - **Visitor counter** (komarev) under the typing header.
