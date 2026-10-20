@@ -55,11 +55,29 @@
 
 </div>
 
+<!-- Featured projects — enable once there are public repos worth showing.
+     GitHub's native "Pinned" section (below this README) already covers this;
+     cards here are just a nicer look. For each repo:
+     1. In .github/workflows/snake.yml, copy the "Generate stats card" step with
+        card: pin
+        options: username=strujillo-byond&repo=<REPO>&theme=tokyonight&hide_border=true&bg_color=00000000
+        path: pin-<REPO>.svg
+        and add pin-<REPO>.svg to the "Upload stats card" path list.
+     2. Uncomment and fill in:
+## 🚀 Featured Projects
+
+<div align="center">
+
+<a href="https://github.com/strujillo-byond/<REPO>"><img src="https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/pin-<REPO>.svg" alt="<REPO>"></a>
+
+</div>
+-->
+
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=strujillo-byond&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" alt="GitHub stats">
+<img height="170" src="https://raw.githubusercontent.com/strujillo-byond/strujillo-byond/output/stats.svg" alt="GitHub stats">
 <img height="170" src="https://streak-stats.demolab.com?user=strujillo-byond&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak">
 
 <!-- Trophies — the github-profile-trophy.vercel.app deployment is DISABLED

@@ -12,7 +12,33 @@ permissions:
   contents: write
 
 jobs:
+  # Self-generated stats card, so it never depends on the public Vercel instance.
+  # Isolated job: the third-party action only gets a read-only token (SHA-pinned),
+  # and hands the SVG to the publish job as an artifact.
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      # show=contributions adds the all-time total (private ones included when
+      # "Include private contributions" is on in profile settings).
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&show=contributions
+          path: stats.svg
+          fail_on_error: true
+
+      - name: Upload stats card
+        uses: actions/upload-artifact@v7
+        with:
+          name: stats
+          path: stats.svg
+
   generate:
+    needs: stats
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -23,6 +49,12 @@ jobs:
           outputs: |
             dist/github-snake.svg?palette=github
             dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Download stats card
+        uses: actions/download-artifact@v8
+        with:
+          name: stats
+          path: dist
 
       - name: Check for metrics token
         id: metricstoken
